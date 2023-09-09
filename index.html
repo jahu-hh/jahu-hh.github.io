@@ -30,6 +30,37 @@
   </section>
 
   <section>
+    <select>
+      <option>Yksi</option>
+      <option>Kaksi</option>
+    </select>
+    <br>
+    <label for="disk_c">Disk usage C:</label>
+    <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+    <br>
+    <label for="disk_d">Disk usage D:</label>
+    <meter id="disk_d" value="0.5">50%</meter>
+    <br>
+    <label for="points">Points (between 0 and 10):</label>
+    <input type="range" id="points" name="points" min="0" max="10">
+
+    <form action="/action_page.php">
+      Blue
+      <input value="blue" type="radio" name="color">
+      Red
+      <input value="red" type="radio" name="color">
+      <input type="text" name="username" placeholder="tekstiä" autocomplete="postal-code" maxlength="34">
+      <input type="text" name="username" placeholder="tekstiä" autocomplete="postal-code" maxlength="34" disabled>
+      <input type="text" placeholder="ei voi editoida ennen kuin aktivoitu" readonly>
+      <input type="number" min="1" max="9">
+      <input type="button" value="Click me">
+      <input type="submit" value="Submit form">
+    </form>
+  </section>
+
+
+
+  <section>
     <h1>WWF's Panda symbol</h1>
     <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi
       that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
